@@ -4,3 +4,13 @@ Authentication :- Clerk.com
 
 [[...sign-up]] //This is another convenction in Next 13 which is exposing all the necessary routes for clerk 
 to work inside of the app router.
+
+**Database is PlanetScale. *SBI Card details are added to planetScale*
+    Username :- zhdnatfifnh8p8h8plfg
+    Password:- pscale_pw_4tXWUij1GzyQ5Vq7kRqPhZqCFnudrrLASp6NmOrzDRA
+
+**Always hit the following command if you change prisma schema file. :-
+    npx prisma generate
+    npx prisma db push
+
+    npx prisma studio
