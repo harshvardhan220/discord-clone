@@ -1,1 +1,6 @@
 (auth) is organisational folder.
+
+Authentication :- Clerk.com
+
+[[...sign-up]] //This is another convenction in Next 13 which is exposing all the necessary routes for clerk 
+to work inside of the app router.
