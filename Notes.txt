@@ -6,10 +6,8 @@ Authentication :- Clerk.com
 to work inside of the app router.
 
 **Database is PlanetScale. *SBI Card details are added to planetScale*
-    Username :- zhdnatfifnh8p8h8plfg
-                zxm72t7wsag0v3cftu20
-    Password:- pscale_pw_4tXWUij1GzyQ5Vq7kRqPhZqCFnudrrLASp6NmOrzDRA
-                pscale_pw_EM2xbJyoy893Ira07NoFpZONK2rG7Rmzw3XxQvtNHcu
+    Username :- 
+    Password:- 
 
 **Always hit the following command if you change prisma schema file. :-
     npx prisma generate
