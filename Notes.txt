@@ -17,3 +17,9 @@ to work inside of the app router.
 
 **Always keep node version updated in yaml file (Github Workflow)
      output: 'export', in next.config.js
+
+** In Yaml File, Upload Artifact, Keep the following config.
+- name: Upload artifact
+        uses: actions/upload-pages-artifact@v2
+        with:
+          path: .
