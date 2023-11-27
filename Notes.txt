@@ -16,3 +16,4 @@ to work inside of the app router.
     npx prisma studio
 
 **Always keep node version updated in yaml file (Github Workflow)
+     output: 'export', in next.config.js
