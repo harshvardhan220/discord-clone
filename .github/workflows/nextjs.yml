@@ -75,10 +75,12 @@ jobs:
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
       - name: Build with Next.js
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
+      - name: Step 1 - Create a temporary artifact downloads folder
+        run: mkdir downloads
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
-          path: ./github-pages/artifact.tar/.
+          path: downloads
 
   # Deployment job
   deploy:
