@@ -16,7 +16,7 @@ to work inside of the app router.
     npx prisma studio
 
 **Always keep node version updated in yaml file (Github Workflow)
-     output: 'export', in next.config.js
+     //output: 'export', in next.config.js
 
 ** In Yaml File, Upload Artifact, Keep the following config.
 - name: Upload artifact
