@@ -23,3 +23,24 @@ to work inside of the app router.
         uses: actions/upload-pages-artifact@v2
         with:
           path: .
+
+
+**Docker Command to Build an image. 
+    docker build -t image-name .
+
+**Docker Command to run a container. 
+    docker run -p 3000:3000 discord-clone
+
+**To push Image to Docker Hub:-
+    https://docs.docker.com/get-started/04_sharing_app/
+
+
+
+FIXME: Everything went fine for docker containerization after commenting output:"export" in next config file 
+       and changing mports for lib from @/lib/ to ./././lib (iykyk).
+       Also add generator client {
+                     provider = "prisma-client-js"
+                     binaryTargets = "debian-openssl-3.0.x"
+                    }
+        in schema.prisma file and run npx prisma generate.
+
