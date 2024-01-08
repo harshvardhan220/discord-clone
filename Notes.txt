@@ -44,3 +44,5 @@ FIXME: Everything went fine for docker containerization after commenting output:
                     }
         in schema.prisma file and run npx prisma generate.
 
+
+TODO: For Video, Audio Calls => Livekit.io
